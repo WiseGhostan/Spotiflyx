@@ -1,0 +1,37 @@
+@media screen and (max-width:800px){
+    header .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    header .logo{
+        height: 48px;
+    }
+    header nav, header nav a{
+        justify-content: center;
+        margin: 0px 0px 0px 7px;
+    }
+    button.botao {
+        margin-top: 8px;
+        width: 256px;;
+        height: 90px;
+        position: relative;
+        padding: 10px;
+        
+    }
+    button.botao:nth-child(1) {
+        position: relative;
+        bottom: 23px;
+    }
+
+    .banda-destaque{
+        background-size: cover;
+        height: fit-content;
+    }
+
+}
+@media screen and (min-width:800px){
+    .detalhes{
+        width: 50%;
+    }
+
+}
